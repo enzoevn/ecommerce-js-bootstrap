@@ -1,0 +1,52 @@
+<div>
+    <div class="container col-12">
+        <p class="cart-title d-flex">Productos agregados al carrito:</p>
+        <div id="cart-container" class="d-flex justify-content-center flex-wrap gap-3">
+            <!-- Aquí se insertarán los productos -->
+        </div>
+        <div class="d-flex justify-content-end">
+            <p class="cart-total p-1 mt-2">Total: 0$</p>
+        </div>
+        <!-- Plantilla de producto -->
+        <template id="cart-template">
+            <div class="card row col-12 product p-3">
+                <div class="d-flex flex-row justify-content-between gap-3">
+                    <img src="" class="cart-product-image rounded" alt="" style="width: fit-content; height: 50px;">
+                    <div class="d-flex gap-3 align-items-center">
+                        <p class="card-title cart-product-name m-0" style="font-size: 0.6rem;">
+                        </p>
+                        <p class="card-text cart-product-price text-center m-0" style="font-size: 0.6rem;">
+                        </p>
+                        <!-- Boton quitar cantidad -->
+                        <button class="btn btn-sm btn-primary remove-product">
+                            <i class="fa fa-minus fa-sm"></i>
+                        </button>
+                        <p class="card-text cart-product-quantity m-0" style="font-size: 0.6rem;">
+                        </p>
+                        <!-- Boton agregar mas cantidad -->
+                        <button class="btn btn-sm btn-primary add-product">
+                            <i class="fa fa-plus fa-sm"></i>
+                        </button>
+                        <!-- <button class="btn btn-sm btn-danger delete-from-cart" aria-label="Eliminar">
+                            <i class="fa fa-trash fa-sm"></i>
+                        </button> -->
+                    </div>
+                </div>
+            </div>
+            <!-- Toast -->
+            <div class="position-fixed bottom-0 end-0 p-3 toast-info" style="z-index: 11">
+                <div id="toast-added-to-cart" class="toast hide bg-warning" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header gap-3">
+                    <img class="toast-image" src="" class="rounded me-2" alt="">
+                    <strong class="me-auto toast-text">No hay mas unidades</strong>
+                    <small>Ahora</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                    <!-- Aquí se insertará el mensaje de éxito -->
+                </div>
+                </div>
+            </div>  
+        </template>
+    </div>
+</div>

@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop Gamer ASUS ROG Strix G16",
+    "description": "Laptop para juegos con pantalla 16\" QHD 240Hz, Intel Core i9-13980HX, NVIDIA GeForce RTX 4070, 16GB RAM DDR5, 1TB SSD PCIe 4.0.",
+    "price": 1999,
+    "stock": 12,
+    "image": "./src/images/product-1.svg",
+    "category": "Laptops"
+  },
+  {
+    "id": 2,
+    "name": "Google Pixel 8 Pro",
+    "description": "Smartphone con chip Google Tensor G3, pantalla Super Actua de 6.7\" LTPO OLED, sistema de cámara Pro avanzado y batería de larga duración.",
+    "price": 999,
+    "stock": 25,
+    "image": "./src/images/product-2.svg",
+    "category": "Smartphones"
+  },
+  {
+    "id": 3,
+    "name": "Monitor Curvo Samsung Odyssey G7 32\"",
+    "description": "Monitor gaming curvo (1000R) de 32 pulgadas WQHD (2560x1440), 240Hz, 1ms, QLED, HDR600, compatible con G-Sync y FreeSync Premium Pro.",
+    "price": 699,
+    "stock": 18,
+    "image": "./src/images/product-3.svg",
+    "category": "Monitores"
+  },
+  {
+    "id": 4,
+    "name": "Teclado Inalámbrico Logitech MX Keys S",
+    "description": "Teclado inalámbrico avanzado con teclas esféricas cóncavas, retroiluminación inteligente, conexión multidispositivo y batería recargable USB-C.",
+    "price": 109,
+    "stock": 40,
+    "image": "./src/images/product-4.svg",
+    "category": "Accesorios"
+  },
+  {
+    "id": 5,
+    "name": "Apple iPad Pro 11 M2",
+    "description": "Tablet potente con chip M2, pantalla Liquid Retina XDR de 11 pulgadas, cámaras Pro, Face ID y compatibilidad con Apple Pencil (2ª gen).",
+    "price": 799,
+    "stock": 20,
+    "image": "./src/images/product-5.svg",
+    "category": "Tablets"
+  },
+  {
+    "id": 6,
+    "name": "Auriculares Bose QuietComfort Ultra",
+    "description": "Auriculares inalámbricos con cancelación de ruido de primer nivel, audio inmersivo Bose, modo Aware y hasta 24 horas de batería.",
+    "price": 429,
+    "stock": 35,
+    "image": "./src/images/product-1.svg",
+    "category": "Accesorios"
+  },
+  {
+    "id": 7,
+    "name": "Smartwatch Garmin Fenix 7 Pro Solar",
+    "description": "Reloj inteligente multideporte con GPS, carga solar Power Glass, monitor de frecuencia cardíaca, métricas de rendimiento avanzadas y mapas integrados.",
+    "price": 899,
+    "stock": 15,
+    "image": "./src/images/product-2.svg",
+    "category": "Wearables"
+  },
+  {
+    "id": 8,
+    "name": "Cámara Mirrorless Sony Alpha 7 IV",
+    "description": "Cámara full-frame de 33MP con enfoque automático en tiempo real de última generación, grabación de vídeo 4K 60p y sensor de imagen retroiluminado.",
+    "price": 2499,
+    "stock": 8,
+    "image": "./src/images/product-3.svg",
+    "category": "Cámaras"
+  },
+  {
+    "id": 9,
+    "name": "SSD Externo Samsung T7 Shield 2TB",
+    "description": "Unidad de estado sólido externa resistente (IP65) con velocidades de lectura/escritura de hasta 1,050/1,000 MB/s, USB 3.2 Gen 2.",
+    "price": 159,
+    "stock": 50,
+    "image": "./src/images/product-4.svg",
+    "category": "Almacenamiento"
+  },
+  {
+    "id": 10,
+    "name": "Router WiFi 6 TP-Link Archer AX73",
+    "description": "Router AX5400 de doble banda con 6 antenas, tecnología OFDMA y MU-MIMO, cobertura amplia y velocidades de hasta 5.4 Gbps.",
+    "price": 179,
+    "stock": 28,
+    "image": "./src/images/product-5.svg",
+    "category": "Redes"
+  },
+  {
+    "id": 11,
+    "name": "Impresora Multifunción HP OfficeJet Pro 9015e",
+    "description": "Impresora todo-en-uno a color ideal para oficinas pequeñas. Imprime, copia, escanea y envía fax. Incluye 6 meses de Instant Ink.",
+    "price": 229,
+    "stock": 22,
+    "image": "./src/images/product-1.svg",
+    "category": "Impresoras"
+  },
+  {
+    "id": 12,
+    "name": "Webcam Logitech C920 HD Pro",
+    "description": "Webcam Full HD 1080p para videollamadas y streaming, con corrección de iluminación automática HD y dos micrófonos integrados.",
+    "price": 69,
+    "stock": 60,
+    "image": "./src/images/product-2.svg",
+    "category": "Accesorios"
+  }
+]
