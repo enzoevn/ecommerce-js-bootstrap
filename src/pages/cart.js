@@ -1,4 +1,4 @@
-import { removeProductFromCart, addProductToCartFromCart, getCart } from './utils.js';
+import { removeProductFromCart, addProductToCartFromCart, getCart } from '../utils/cartUtils.js';
 
 export async function loadCart() {
     const cart = getCart();

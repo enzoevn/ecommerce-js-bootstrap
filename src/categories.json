@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Laptops",
+    "description": "Descripción de la categoría Laptops"
+  },
+  {
+    "id": 2,
+    "name": "Smartphones",
+    "description": "Descripción de la categoría Smartphones"
+  },
+  {
+    "id": 3,
+    "name": "Monitores",
+    "description": "Descripción de la categoría Monitores"
+  },
+  {
+    "id": 4,
+    "name": "Accesorios",
+    "description": "Descripción de la categoría Accesorios"
+  },
+  {
+    "id": 5,
+    "name": "Tablets",
+    "description": "Descripción de la categoría Tablets"
+  },
+  {
+    "id": 6,
+    "name": "Wearables",
+    "description": "Descripción de la categoría Wearables"
+  },
+  {
+    "id": 7,
+    "name": "Cámaras",
+    "description": "Descripción de la categoría Cámaras"
+  },
+  {
+    "id": 8,
+    "name": "Almacenamiento",
+    "description": "Descripción de la categoría Almacenamiento"
+  },
+  {
+    "id": 9,
+    "name": "Redes",
+    "description": "Descripción de la categoría Redes"
+  },
+  {
+    "id": 10,
+    "name": "Impresoras",
+    "description": "Descripción de la categoría Impresoras"
+  }
+] 

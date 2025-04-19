@@ -6,7 +6,7 @@
     "price": 1999,
     "stock": 12,
     "image": "./src/images/product-1.svg",
-    "category": "Laptops"
+    "category_id": 1
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "price": 999,
     "stock": 25,
     "image": "./src/images/product-2.svg",
-    "category": "Smartphones"
+    "category_id": 2
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "price": 699,
     "stock": 18,
     "image": "./src/images/product-3.svg",
-    "category": "Monitores"
+    "category_id": 3
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "price": 109,
     "stock": 40,
     "image": "./src/images/product-4.svg",
-    "category": "Accesorios"
+    "category_id": 4
   },
   {
     "id": 5,
@@ -42,7 +42,7 @@
     "price": 799,
     "stock": 20,
     "image": "./src/images/product-5.svg",
-    "category": "Tablets"
+    "category_id": 5
   },
   {
     "id": 6,
@@ -51,7 +51,7 @@
     "price": 429,
     "stock": 35,
     "image": "./src/images/product-1.svg",
-    "category": "Accesorios"
+    "category_id": 4
   },
   {
     "id": 7,
@@ -60,7 +60,7 @@
     "price": 899,
     "stock": 15,
     "image": "./src/images/product-2.svg",
-    "category": "Wearables"
+    "category_id": 6
   },
   {
     "id": 8,
@@ -69,7 +69,7 @@
     "price": 2499,
     "stock": 8,
     "image": "./src/images/product-3.svg",
-    "category": "Cámaras"
+    "category_id": 7
   },
   {
     "id": 9,
@@ -78,7 +78,7 @@
     "price": 159,
     "stock": 50,
     "image": "./src/images/product-4.svg",
-    "category": "Almacenamiento"
+    "category_id": 8
   },
   {
     "id": 10,
@@ -87,7 +87,7 @@
     "price": 179,
     "stock": 28,
     "image": "./src/images/product-5.svg",
-    "category": "Redes"
+    "category_id": 9
   },
   {
     "id": 11,
@@ -96,7 +96,7 @@
     "price": 229,
     "stock": 22,
     "image": "./src/images/product-1.svg",
-    "category": "Impresoras"
+    "category_id": 10
   },
   {
     "id": 12,
@@ -105,6 +105,6 @@
     "price": 69,
     "stock": 60,
     "image": "./src/images/product-2.svg",
-    "category": "Accesorios"
+    "category_id": 4
   }
 ]

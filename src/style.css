@@ -160,3 +160,8 @@ main {
 .category:hover {
   color: #c39fbe;
 }
+
+/* Ocultar el botón de login/logout mientras se determina el estado */
+#login-link.login-status-loading {
+  visibility: hidden; /* Usar visibility para evitar saltos en el layout */
+}

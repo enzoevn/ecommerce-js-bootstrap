@@ -1,10 +1,11 @@
 import { resetProducts } from '../main.js';
 import { loadCart } from './cart.js';
-import { getProducts, getCategories, getProductByCategory, renderProducts, renderCategories } from './utils.js';
+import { getProducts, getCategories, getProductByCategory, getCategoryById } from '../utils/fetchUtils.js';
+import { renderProducts, renderCategories } from '../utils/renderUtils.js';
 
 export async function loadProducts() {
   // Update products
-  const products = getProducts();
+  const products = await getProducts();
   try {
     const response = await fetch('./src/templates/products.html');
     if (!response.ok) {
@@ -23,15 +24,18 @@ export async function loadProducts() {
     // Renderizar todos los productos al cargar la página
     renderProducts(products, productsContainer, productTemplate);
 
-    const onCategoryClick = (category) => {
+    const onCategoryClick = async (categoryId) => {
       // Limpiar el contenedor de productos
       productsContainer.innerHTML = '';
       // Obtener productos de la categoría
-      const products = getProductByCategory(category);
-      console.log(`products: ${category}`, products);      
+      console.log('categoryId:', categoryId);
+      const category = await getCategoryById(categoryId);
+      console.log('category:', category);
+      const products = await getProductByCategory(category);
+      console.log(`products: ${category}`, products);
       renderProducts(products, productsContainer, productTemplate);
     }
-    const categories = getCategories();
+    const categories = await getCategories();
     renderCategories(categories, categoriesContainer, onCategoryClick);
 
     // Agregar botón para reiniciar productos

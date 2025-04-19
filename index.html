@@ -26,9 +26,12 @@
                   <button class="btn custom-btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
                       <i class="fas fa-shopping-cart"></i> Carrito
                   </button>
-                  <button class="btn custom-btn-primary" type="button" id="admin-panel-link">
-                    <i class="fas fa-user"></i> Admin Panel
-                  </button>
+                  <a href="#login" class="btn custom-btn-primary login-status-loading" id="login-link">
+                      <i class="fas fa-sign-in-alt"></i> Login Admin
+                  </a>
+                  <a href="#admin-panel" class="btn custom-btn-secondary ms-2" id="admin-panel-link" style="display: none;">
+                      <i class="fas fa-user-shield"></i> Ir a Admin Panel
+                  </a>
                   <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                       <div class="offcanvas-header">
                       <h5 id="offcanvasRightLabel">Carrito</h5>
@@ -54,9 +57,6 @@
                   </li>
                   <li class="nav-item">
                       <a class="nav-link" href="#products" id="products-link">Productos</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#categories" id="categories-link">Categorías</a>
                   </li>
               </ul>
           </div>
